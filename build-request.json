@@ -1,0 +1,40 @@
+{
+  "kind": "build_request",
+  "title": "Add second real school photo to gallery and update image assets",
+  "projectName": "Sandharka Green School",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "text": "Add the newly uploaded school photo FB_IMG_1772019352532-1.jpg as a second real campus image. Display it alongside FB_IMG_1772019352532.jpg in the Gallery section so the gallery features at least two distinct real photographs of the school campus.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "The user has uploaded 2 image(s): FB_IMG_1772019352532.jpg, FB_IMG_1772019352532-1.jpg"
+        ]
+      },
+      "acceptanceCriteria": [
+        "FB_IMG_1772019352532-1.jpg is stored in frontend/public/assets/ and referenced correctly",
+        "The Gallery section displays both FB_IMG_1772019352532.jpg and FB_IMG_1772019352532-1.jpg as real campus photos",
+        "Both images render without broken image errors",
+        "The gallery layout accommodates two or more real photos gracefully"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not remove or replace FB_IMG_1772019352532.jpg which is already in use across Hero, About, Gallery, and Contact sections",
+    "Do not modify files under frontend/src/hooks/ or frontend/src/components/ui"
+  ],
+  "nonGoals": [
+    "Redesigning the overall gallery layout",
+    "Adding new backend functionality",
+    "Replacing the hero background image"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

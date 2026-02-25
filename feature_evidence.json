@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-the-newly-uploaded-school-photo-fb-img-1772019352532-1-jpg-as-a-second-real-campus-image-display-it-alongside-fb-img-1772019352532-jpg-in-the-gallery-section-so-the-gallery-features-at-least-two-distinct-real-photographs-of-the-school-campus",
+      "featureTitle": "Add the newly uploaded school photo FB_IMG_1772019352532-1.jpg as a second real campus image. Display it alongside FB_IMG_1772019352532.jpg in the Gallery section so the gallery features at least two distinct real photographs of the school campus.",
+      "files": [
+        "frontend/src/components/Gallery.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

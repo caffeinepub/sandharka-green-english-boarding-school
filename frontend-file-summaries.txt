@@ -1,0 +1,15 @@
+{
+  "frontend/src/index.css": "Global styles with a nature-inspired forest green and gold OKLCH color system, importing Playfair Display (serif for headings) and Inter (sans-serif for body), with smooth scroll and utility classes.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with custom forest green and gold color palettes, Playfair Display/Inter font families, custom shadows, and fade-in-up animation keyframes.",
+  "frontend/src/hooks/useQueries.ts": "React Query hook `useGetAllNotices` that fetches all school notices from the backend actor.",
+  "frontend/src/components/Navbar.tsx": "Fixed responsive navigation bar with smooth-scroll links, school logo/branding, mobile hamburger menu, and scroll-aware background opacity.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with the school campus image as background, gradient overlay, school name, tagline, establishment year badge, and CTA buttons.",
+  "frontend/src/components/About.tsx": "Two-column about section with the campus image, school history/mission text, location details, and key feature cards with icons.",
+  "frontend/src/components/Stats.tsx": "Dark forest green stats section highlighting 1500+ students, 55+ teachers, establishment year, and 100% pass rate with icon cards.",
+  "frontend/src/components/Facilities.tsx": "Eight-card grid showcasing school facilities including library, labs, computer lab, sports, boarding, dining, arts, and green campus.",
+  "frontend/src/components/Notices.tsx": "Notices section that fetches and displays school announcements from the backend, with loading, error, and empty states.",
+  "frontend/src/components/Gallery.tsx": "Photo gallery section displaying both real campus photos (FB_IMG_1772019352532.jpg and FB_IMG_1772019352532-1.jpg) as two side-by-side featured images with captions, plus a 4-image grid alternating between both real photographs with hover zoom effects and label overlays.",
+  "frontend/src/components/Contact.tsx": "Contact section with school address/contact info cards, a location image placeholder, and a functional contact form.",
+  "frontend/src/components/Footer.tsx": "Full footer with school branding, contact details, quick links, school info, copyright, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/App.tsx": "Root application component that composes all page sections (Navbar, Hero, About, Stats, Facilities, Notices, Gallery, Contact, Footer) into a single-page layout."
+}
