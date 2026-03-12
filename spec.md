@@ -1,10 +1,29 @@
-# Specification
+# Ultimate Snake Game
 
-## Summary
-**Goal:** Add a second real campus photo to the Gallery section so visitors can see multiple photographs of the school.
+## Current State
+Basic snake game exists in the project.
 
-**Planned changes:**
-- Store `FB_IMG_1772019352532-1.jpg` in `frontend/public/assets/`
-- Update the Gallery section to display both `FB_IMG_1772019352532.jpg` and `FB_IMG_1772019352532-1.jpg` as real campus photos side by side
+## Requested Changes (Diff)
 
-**User-visible outcome:** The Gallery section now shows at least two real photographs of the Sandharka Green English Boarding School campus.
+### Add
+- Multi-colored snake segments (lime, orange, cyan, magenta, yellow cycling)
+- 3 food items on screen simultaneously: normal (red, +1 point) and boss (purple, +5 points, 20% chance)
+- Random wall maps (10 maps, 5-20 walls each), changes per level
+- Level system: level up every 5 points, speed increases
+- High score saved in localStorage
+- Mobile D-pad controls (up/down/left/right buttons)
+- Restart button
+- Score/High Score/Level display
+- Keyboard arrow key support
+
+### Modify
+- Replace existing game with full Ultimate Snake Game implementation
+
+### Remove
+- Old simple snake game
+
+## Implementation Plan
+1. Rewrite the frontend game component using Canvas API with all features from the provided HTML
+2. Port the game logic: snake movement, food spawning, wall collision, self-collision, food eating, level progression
+3. Add mobile-friendly D-pad controls
+4. Persist high score via localStorage
